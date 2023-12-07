@@ -99,6 +99,7 @@ h3{
     align-items: center;
     justify-content: space-between;
 }
+
 .about-left{
     display: flex;
     flex-direction: column;
@@ -586,6 +587,9 @@ input.contact-btn{
     height: 100vh;
     display: block;
 }
+.contact-heading{
+    padding-top: 20px;
+}
 .contact-box img{
     height: 40vh;
 }
@@ -604,7 +608,7 @@ input.contact-btn{
 
 
 
-/*footbarx*/
+/*footbar*/
 
 .foot{
     height: 40vh;
@@ -619,6 +623,10 @@ input.contact-btn{
     display: block;
 
 }
+
+
+
+
 
 
     
@@ -640,38 +648,23 @@ input.contact-btn{
 
 
 
-.reveal h3{
-    position: relative;
-    transform: translateX(-150px);
-    opacity: 0;
-    transition: all 2s ease;
-}
-.reveal.active h3{
 
-transform: translateX(0px);
-    opacity: 1;
-}
 
-/* .reveal h2{
+
+
+
+
+.reveal div{
     position: relative;
-    transform: translateY(150px);
+    transform: translatey(70px);
     opacity: 0;
     transition: all 1s ease;
 }
-.reveal.active h2{
-    transform: translateY(0px);
-    opacity: 1;
-}  */
-.reveal img{
-    position: relative;
-    transform: translateX(100px);
-    opacity: 0;
-    transition: all 1s ease;
-
-}
-.reveal.active img{
+.reveal.active div{
     transform: translateY(0px);
     opacity: 1;
 
 }
+
+
 
